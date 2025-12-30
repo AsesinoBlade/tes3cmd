@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "perl",
+      "request": "launch",
+      "name": "Debug Active Perl File",
+      "program": "${file}",
+      "exec": "C:\\Strawberry\\perl\\bin\\perl.exe",
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": false,
+      "inc": []
+    },
+    {
+      "type": "perl",
+      "request": "launch",
+      "name": "Debug Script with Args",
+      "program": "${workspaceFolder}/script.pl",
+      "exec": "C:\\Strawberry\\perl\\bin\\perl.exe",
+      "args": ["foo", "bar"],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
